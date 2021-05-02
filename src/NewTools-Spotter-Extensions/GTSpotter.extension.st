@@ -1,7 +1,7 @@
 Extension { #name : #GTSpotter }
 
 { #category : #'*NewTools-Spotter-Extensions' }
-GTSpotter class >> spotterExtensionsFor: aStep [
+GTSpotter classSide >> spotterExtensionsFor: aStep [
 	<stSpotterOrder: 50>
 	aStep listProcessor
 			allCandidates: [ self spotterExtendingMethods ];
